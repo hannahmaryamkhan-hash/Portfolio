@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hannah Maryam Khan — Interior Design Student Portfolio. Thoughtful spaces rooted in research, material, and human experience. Based in Bengaluru." />
+  <meta name="keywords" content="interior design, portfolio, student, Bengaluru, mood board, concept design, Hannah Maryam Khan" />
+  <title>Hannah Maryam Khan — Interior Design Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="nav" id="navbar">
+    <div class="nav__logo">Hannah <span>Maryam Khan</span></div>
+
+    <!-- Hamburger for mobile -->
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <i class="ti ti-menu-2"></i>
+    </button>
+
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#work" class="nav__link">Work</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#journal" class="nav__link">Journal</a></li>
+      <li><a href="#services" class="nav__link">Services</a></li>
+      <li><a href="#contact" class="nav__link nav__link--cta">Hire me &rarr;</a></li>
+    </ul>
+  </nav>
+
+  <!-- Mobile overlay menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">
+      <i class="ti ti-x"></i>
+    </button>
+    <ul class="mobile-menu__links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#journal">Journal</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="mobile-menu__cta">Hire me &rarr;</a></li>
+    </ul>
+  </div>
+  <div class="mobile-menu__overlay" id="menuOverlay"></div>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__left reveal">
+      <p class="eyebrow">Interior design student &middot; Bengaluru</p>
+      <h1 class="hero__h1">Spaces that<br>feel like <em>stories.</em></h1>
+      <p class="hero__sub">I design interiors that balance beauty with purpose — thoughtful spaces rooted in research, material, and human experience.</p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">View my work</a>
+        <a href="#about" class="btn btn--ghost">
+          About me <i class="ti ti-arrow-right"></i>
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-num">1st</span>
+          <span class="hero__stat-label">Year student</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">8+</span>
+          <span class="hero__stat-label">Projects so far</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">3</span>
+          <span class="hero__stat-label">Design styles</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__right reveal reveal--delay">
+      <img src="images/me.jpg" alt="Hannah Maryam Khan — Interior Design Student" class="hero__photo" />
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TICKER
+  ═══════════════════════════════════════════ -->
+  <div class="ticker">
+    <div class="ticker__label">Currently exploring</div>
+    <div class="ticker__track">
+      <div class="ticker__items">
+        <span>Biophilic design principles</span>
+        <span>Japandi aesthetics</span>
+        <span>Sustainable materials</span>
+        <span>Space planning fundamentals</span>
+        <span>Colour theory in interiors</span>
+        <span>AutoCAD for beginners</span>
+        <!-- Duplicate for seamless loop -->
+        <span>Biophilic design principles</span>
+        <span>Japandi aesthetics</span>
+        <span>Sustainable materials</span>
+        <span>Space planning fundamentals</span>
+        <span>Colour theory in interiors</span>
+        <span>AutoCAD for beginners</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       WORK / PORTFOLIO
+  ═══════════════════════════════════════════ -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section__header reveal">
+        <div>
+          <p class="section-label">Selected work</p>
+          <h2 class="section__h2">Projects that<br><em>speak for themselves</em></h2>
+        </div>
+        <a href="#work" class="btn btn--ghost btn--sm">View all <i class="ti ti-arrow-right"></i></a>
+      </div>
+
+      <div class="work__grid reveal">
+        <!-- Card 1 — Featured -->
+        <div class="card card--featured">
+          <div class="card__img card__img--tall">
+            <img src="images/interior.jpg" alt="Warm minimalist living room concept" />
+            <span class="card__tag">Concept design</span>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">The warm minimalist living room</h3>
+            <p class="card__meta">Mood board &middot; Material palette &middot; Concept sketches</p>
+            <p class="card__year">Year 1 &middot; 2025</p>
+          </div>
+        </div>
+
+        <!-- Cards 2 & 3 — Right column -->
+        <div class="work__col">
+          <div class="card">
+            <div class="card__img">
+              <span class="card__tag">Colour study</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Earth tones in urban homes</h3>
+              <p class="card__meta">Palette research &middot; Swatch boards</p>
+              <p class="card__year">Year 1 &middot; 2025</p>
+            </div>
+          </div>
+
+          <div class="card card--hatched">
+            <div class="card__img">
+              <span class="card__tag">Materials</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Texture &amp; tactility study</h3>
+              <p class="card__meta">Material samples &middot; Sourcing research</p>
+              <p class="card__year">Year 1 &middot; 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card card--lined">
+          <div class="card__img card__img--tall">
+            <span class="card__tag">Sketching</span>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Perspective hand sketches</h3>
+            <p class="card__meta">Freehand &middot; Architectural drawing</p>
+            <p class="card__year">Year 1 &middot; 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
+  <section class="about section" id="about">
+    <div class="about__left reveal">
+      <p class="section-label">About me</p>
+      <h2 class="section__h2">Designing with<br>curiosity &amp; intention</h2>
+      <p class="about__body">I'm Hannah, a first-year interior design student based in Bengaluru. I'm drawn to spaces that feel lived-in and purposeful — where every material choice and spatial decision tells a story.</p>
+      <p class="about__body">This portfolio grows alongside my education. Come back each semester to see how my work evolves from concept boards to full spatial designs.</p>
+      <a href="#contact" class="btn btn--primary" style="margin-top: 1rem; display: inline-flex;">Learn more about me</a>
+    </div>
+
+    <div class="about__right reveal reveal--delay">
+      <div class="about__stat">
+        <span class="about__stat-num">Yr 1</span>
+        <span class="about__stat-label">Currently in &middot; B.Des Interior Design</span>
+      </div>
+      <div class="about__stat">
+        <span class="about__stat-num">2027</span>
+        <span class="about__stat-label">Expected graduation &middot; Available for clients</span>
+      </div>
+      <div class="about__stat">
+        <div class="about__tags">
+          <span class="tag">SketchUp</span>
+          <span class="tag">Canva</span>
+          <span class="tag">AutoCAD</span>
+          <span class="tag">Procreate</span>
+          <span class="tag">Adobe CC</span>
+        </div>
+        <span class="about__stat-label">Tools I'm learning</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SERVICES / SKILLS
+  ═══════════════════════════════════════════ -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">What I offer</p>
+      </div>
+      <div class="services__grid reveal">
+        <div class="service-item">
+          <i class="ti ti-layout-2 service-item__icon" aria-hidden="true"></i>
+          <h3 class="service-item__name">Concept design</h3>
+          <p class="service-item__desc">Mood boards, concept narratives, colour &amp; material direction for any space</p>
+        </div>
+        <div class="service-item">
+          <i class="ti ti-pencil service-item__icon" aria-hidden="true"></i>
+          <h3 class="service-item__name">Hand sketching</h3>
+          <p class="service-item__desc">Perspective drawings, ideation sketches, and spatial explorations</p>
+        </div>
+        <div class="service-item">
+          <i class="ti ti-cube service-item__icon" aria-hidden="true"></i>
+          <h3 class="service-item__name">3D exploration</h3>
+          <p class="service-item__desc">SketchUp models, spatial massing, and basic 3D rendering</p>
+        </div>
+        <div class="service-item">
+          <i class="ti ti-plant service-item__icon" aria-hidden="true"></i>
+          <h3 class="service-item__name">Styling research</h3>
+          <p class="service-item__desc">Trend research, material sourcing, and sustainable design thinking</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROCESS
+  ═══════════════════════════════════════════ -->
+  <section class="process section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">My process</p>
+      </div>
+      <div class="process__steps reveal">
+        <div class="process__step">
+          <div class="process__num">01</div>
+          <h3 class="process__title">Discover</h3>
+          <p class="process__desc">Understanding the space, its people, and the feeling they want to create</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">02</div>
+          <h3 class="process__title">Conceive</h3>
+          <p class="process__desc">Mood boards, sketches, and material explorations that frame the design direction</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">03</div>
+          <h3 class="process__title">Develop</h3>
+          <p class="process__desc">Translating concepts into spatial plans, 3D views, and detailed drawings</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">04</div>
+          <h3 class="process__title">Deliver</h3>
+          <p class="process__desc">Presenting a cohesive package the client can take to execution</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       JOURNAL
+  ═══════════════════════════════════════════ -->
+  <section class="journal section" id="journal">
+    <div class="container">
+      <div class="section__header reveal">
+        <div>
+          <p class="section-label">Design journal</p>
+          <h2 class="section__h2">Thoughts on <em>space &amp; making</em></h2>
+        </div>
+        <a href="#journal" class="btn btn--ghost btn--sm">All posts <i class="ti ti-arrow-right"></i></a>
+      </div>
+
+      <div class="journal__grid reveal">
+        <article class="journal-card">
+          <p class="journal-card__tag">Trend research</p>
+          <h3 class="journal-card__title">Why Japandi works in Indian homes</h3>
+          <p class="journal-card__excerpt">Exploring the intersection of Japanese wabi-sabi and Scandinavian simplicity through a local lens.</p>
+          <p class="journal-card__date">May 2025</p>
+        </article>
+
+        <article class="journal-card">
+          <p class="journal-card__tag">Process</p>
+          <h3 class="journal-card__title">How I built my first mood board from scratch</h3>
+          <p class="journal-card__excerpt">A behind-the-scenes look at the research, references, and decisions that shaped my first college brief.</p>
+          <p class="journal-card__date">April 2025</p>
+        </article>
+
+        <article class="journal-card">
+          <p class="journal-card__tag">Materials</p>
+          <h3 class="journal-card__title">Learning to read a material — texture, weight, story</h3>
+          <p class="journal-card__excerpt">My notes from a material exploration workshop and what it taught me about choosing surfaces intentionally.</p>
+          <p class="journal-card__date">March 2025</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CTA / CONTACT
+  ═══════════════════════════════════════════ -->
+  <section class="cta section" id="contact">
+    <div class="cta__inner reveal">
+      <p class="cta__eyebrow">Let's work together</p>
+      <h2 class="cta__h2">Every great space starts<br>with a <em>conversation.</em></h2>
+      <p class="cta__sub">I'm open to student collaborations, freelance concept projects,<br class="br-hide">and internship opportunities. Let's talk.</p>
+      <div class="cta__actions">
+        <a href="mailto:hannahmaryamkhan@gmail.com?subject=Free Consultation Request" class="btn btn--light">Book a free call</a>
+        <a href="mailto:hannahmaryamkhan@gmail.com" class="btn btn--outline-light">Send me a message</a>
+      </div>
+      <div class="cta__contact-details">
+        <a href="mailto:hannahmaryamkhan@gmail.com" class="cta__detail">
+          <i class="ti ti-mail" aria-hidden="true"></i>
+          hannahmaryamkhan@gmail.com
+        </a>
+        <span class="cta__detail-sep">&middot;</span>
+        <a href="https://instagram.com/hannah.design" target="_blank" rel="noopener" class="cta__detail">
+          <i class="ti ti-brand-instagram" aria-hidden="true"></i>
+          @hannah.design
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__logo">Hannah <span>Maryam Khan</span></div>
+    <ul class="footer__links">
+      <li><a href="https://instagram.com/hannah.design" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+      <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://houzz.com" target="_blank" rel="noopener">Houzz</a></li>
+    </ul>
+    <p class="footer__copy">&copy; 2025 &middot; Bengaluru, India</p>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
